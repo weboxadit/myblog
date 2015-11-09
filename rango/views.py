@@ -19,7 +19,9 @@ def index(request):
 
     return render(request, 'rango/index.html', context_dict)
 
+
 def about(request):
+
     print __file__
     print os.path.dirname(__file__)
     print os.path.dirname(os.path.dirname(__file__))
